@@ -3,12 +3,12 @@ export default {
     output: {
         file: 'lib/index.umd.js',
         format: 'umd',
-        name: 'VueDecorator',
+        name: 'VueClassDecorator',
         globals: {
             vue: 'Vue',
             'vue-class-component': 'VueClassComponent',
         },
         exports: 'named',
     },
-    external: ['vue', 'vue-class-component'],
+    external: ['vue', 'vue-class-component', 'reflect-metadata'],
 };
