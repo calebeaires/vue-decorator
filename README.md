@@ -4,6 +4,7 @@ Custom decorators to vue-class-component that fits Vue 3, heavily inspired
 by [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ## Help need: yes
+##Compatible: Vue 3
 
 ## License
 
