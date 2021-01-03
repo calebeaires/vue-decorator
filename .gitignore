@@ -1,0 +1,10 @@
+lib
+node_modules
+npm-debug.log
+src/*.js
+tests/*.spec.js
+package-lock.json
+.vscode/setting.json
+.idea
+yarn-error.log
+coverage
