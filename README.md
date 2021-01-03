@@ -30,6 +30,7 @@ npm i vue-decorator
 
 - [`@Prop`](#Prop)
 - [`@Watch`](#Watch)
+- [`@Emit`](#Emit)
 - [`@Ref`](#Ref)
 
 ### <a id="Prop"></a> `@Prop(options: (PropOptions | VueConstructor[] | VueConstructor) = {})`

@@ -11,4 +11,6 @@ export default {
         exports: 'named',
     },
     external: ['vue', 'vue-class-component', 'reflect-metadata'],
+    // moduleContext: 'null',
+    // context: 'null',
 };

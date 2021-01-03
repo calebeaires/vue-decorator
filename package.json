@@ -1,6 +1,6 @@
 {
   "name": "vue-decorator",
-  "version": "1.0.6",
+  "version": "1.1.2",
   "description": "Custom decorators to vue-class-component that fits Vue 3",
   "main": "lib/index.umd.js",
   "module": "lib/index.js",
