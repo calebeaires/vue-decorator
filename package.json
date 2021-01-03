@@ -1,9 +1,14 @@
 {
   "name": "vue-decorator",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Custom decorators to vue-class-component that fits Vue 3",
   "main": "lib/index.umd.js",
   "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "vue",
     "vue3",
@@ -11,15 +16,11 @@
     "decorator"
   ],
   "author": "calebeaires",
-  "private": false,
   "license": "MIT",
   "scripts": {
     "build": "tsc -p ./src/tsconfig.json && rollup -c",
     "test": "jest"
   },
-  "files": [
-    "lib"
-  ],
   "dependencies": {},
   "devDependencies": {
     "rollup": "^2.35.1",

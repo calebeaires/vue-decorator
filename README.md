@@ -28,6 +28,7 @@ npm i vue-decorator
 
 - [`@Prop`](#Prop)
 - [`@Watch`](#Watch)
+- [`@Ref`](#Ref)
 
 ### <a id="Prop"></a> `@Prop(options: (PropOptions | VueConstructor[] | VueConstructor) = {})`
 
@@ -115,6 +116,33 @@ export default {
         onPersonChanged2(val, oldVal) {
         },
     },
+}
+```
+
+
+### <a id="Ref"></a> `@Ref(refKey?: string)`
+
+```ts
+import { Vue, Options, Ref } from 'vue-decorator'
+
+@Options({})
+export default class YourComponent extends Vue {
+  @Ref('aButton') readonly button!: HTMLButtonElement
+}
+```
+
+is equivalent to
+
+```js
+export default {
+  computed() {
+    button: {
+      cache: false,
+      get() {
+        return this.$refs.aButton as HTMLButtonElement
+      }
+    }
+  }
 }
 ```
 
