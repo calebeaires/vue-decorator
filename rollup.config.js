@@ -7,10 +7,9 @@ export default {
         globals: {
             vue: 'Vue',
             'vue-class-component': 'VueClassComponent',
+            'vue-property-decorator': 'vuePropertyDecorator',
         },
         exports: 'named',
     },
-    external: ['vue', 'vue-class-component', 'reflect-metadata'],
-    // moduleContext: 'null',
-    // context: 'null',
+    external: ['vue', 'vue-class-component', 'vue-property-decorator', 'reflect-metadata'],
 };
